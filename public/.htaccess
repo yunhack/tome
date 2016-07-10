@@ -1,0 +1,12 @@
+#/public/.htaccess
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*.(ico|jpg|png|gif|jpeg|css|js))$ 404.html [L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^(.*)$ index.php?__QP_url=/$1 [QSA,L]
+</IfModule>

@@ -1,0 +1,23 @@
+{
+    "name": "q-phalcon/kernel",
+    "description": "The QPhalcon framework's kernel code",
+    "keywords": ["PHP Framework", "q-phalcon", "QP Framework" ,"QPhalcon"],
+    "homepage": "https://github.com/q-phalcon/kernel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qvil Young",
+            "homepage": "https://github.com/Qvil-Young",
+            "email": "qvil_young@163.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Qp\\Kernel\\": ""
+        }
+    }
+}

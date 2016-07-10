@@ -1,0 +1,19 @@
+{
+    "name": "q-phalcon/q-phalcon",
+    "description": "The QPhalcon framework",
+    "keywords": ["PHP Framework", "q-phalcon", "QP Framework" ,"QPhalcon"],
+    "homepage": "https://github.com/q-phalcon/q-phalcon",
+    "license": "MIT",
+    "type":"project",
+    "authors": [
+        {
+            "name": "Qvil Young",
+            "homepage": "https://github.com/Qvil-Young",
+            "email": "qvil_young@163.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "q-phalcon/kernel": "0.0.1"
+    }
+}
